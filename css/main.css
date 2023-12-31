@@ -1,0 +1,28 @@
+h1{
+    color: #1877F2;
+    font-size: 50px;
+}
+body{
+    background-color: #F0F2F5;
+}
+.header{
+    height: 100vh;
+}
+.btn-success{
+    /* #36A420 */
+    background-color:#42b72a;
+    border: none;
+}
+.btn-success:hover{
+ background-color: #36A420;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0rem rgba(13,110,253,.25);
+}
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus{
+    box-shadow: none;
+}
+.form-control.is-valid:focus, .was-validated .form-control:valid:focus{
+    box-shadow: none;
+}

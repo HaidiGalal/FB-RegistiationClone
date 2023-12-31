@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Login or sign up</title>
+    <link rel="icon" type="image/x-icon" href="images/icons8-facebook-color-96.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+
+<div class="container ">
+<div class="row header d-flex  justify-content-center  align-items-center g-4 ">
+<div class="col-lg-6 text-center ">
+<div>
+    <h1 class=" fw-bolder ">
+        facebook
+    </h1>
+    <p class="fs-3  ">Facebook gives you the ability to connect with people and share what you want with them.
+    </p>
+</div>
+
+</div>
+
+<div class="col-lg-6  ">
+    <div class="bg-white p-3    shadow   d-flex  justify-content-center   flex-column rounded    ">
+       <div  >
+        <input type="text" placeholder="Name" class="form-control d-none   my-3 p-3 fs-5 " id="nameInput" >
+ 
+        <input type="email" placeholder="Email or phone number" class="form-control  my-3 p-3 fs-5 " id="emailInput">
+       <input type="password" placeholder="password" class="form-control  my-3  p-3  fs-5 " id="passwordInput">
+       </div>
+    <p class="text-danger fs-6 d-none " id="warning-signup">email alreay exists !</p>
+    <p class="text-danger fs-6 d-none " id="warning-signin">email or password is incorrect !</p>
+    <p class="text-danger fs-6 d-none " id="warning">All inpuputs required !</p>
+
+
+    <button class="btn  btn-primary p-2 my-3  fs-4 " id="signin">sign in</button>
+    <button class="btn  btn-primary p-2 my-3  fs-4 d-none " id="signup">sign up</button>
+
+     <a href="" class="text-center   ">Forgot your password?</a>
+     <hr>
+     <div class="d-flex  justify-content-center  ">
+        <button id="create-btn" class=" btn btn-success fw-bold w-50   py-2 submit   fs-6 " > create a new account </button> 
+        <button id="have-account" class=" btn btn-success fw-bold w-50   py-2 submit   fs-6 d-none" id="have-account"> You have an account?</button> 
+
+
+     </div>
+    </div>
+    <p class="my-2 ">Create a <span class="fw-bolder ">page</span> for a famous person, brand or business.
+    </p>
+    </div>
+</div>
+
+</div>
+  <script src="main.js"></script>  
+</body>
+</html>
