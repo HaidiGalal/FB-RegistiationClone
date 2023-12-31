@@ -15,7 +15,7 @@ function getName(){
 
  function logOut(){
     console.log("logout");
-    window.location='./index.html';
+    window.location='../index.html';
  }
  logout.addEventListener('click',logOut);
 

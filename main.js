@@ -157,7 +157,7 @@ function signIn(){
            
       
            clear();
-           window.location='./home.html';
+           window.location='../home.html';
       
            break;
           }else{
